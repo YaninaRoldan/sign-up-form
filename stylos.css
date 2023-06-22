@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 1440px;
+    height: 800px;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.publicidad-container {
+    width: 550px;
+    height: 65px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.publicidad {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+
+
+}
+
+.tittle {
+    color: white;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 285px;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.parrafo {
+    color: white;
+    width: 500px;
+    margin-left: 150px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 440px;
+    font-size: 15px;
+}
+
+form {
+    background-color: white;
+    width: 550px;
+    height: 480px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+input {
+    width: 470px;
+    height: 60px;
+    color: hsl(249, 10%, 26%);
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 30px;
+
+
+}
+
+input:focus {
+    border: 0.1px solid hsl(248, 32%, 49%);
+    color: hsl(249, 10%, 26%);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.name {
+    margin-top: 30px;
+}
+
+.claim {
+    width: 470px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 40px;
+    background-color: hsl(154, 59%, 51%);
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    border: 0px;
+    font-weight: bold;
+}
+
+.claim:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+footer {
+    color: hsl(246, 25%, 77%);
+    width: 470px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 15px;
+
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
